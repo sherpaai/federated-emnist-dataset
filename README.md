@@ -29,16 +29,7 @@ The different datasets are located in these locations:
 
  - You can import them in your code using [numpy.load function](https://numpy.org/doc/stable/reference/generated/numpy.load.html).
  For example, for EMNIST Digits dataset:
- 
- ```python
-    data = np.load('./emnist-digits.zip')
- ```
-
-## Requirements
-
-This work is tested with Python 3.8.5.
-
-The requirements.txt file is automatically generated with [pipreqs](https://github.com/bndr/pipreqs).
+ `
 
 ## References
 
