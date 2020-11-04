@@ -20,9 +20,9 @@ Please, check the [EMNIST paper](https://arxiv.org/abs/1702.05373v1) for further
 
 The different datasets are located in these locations:
 
- - [emnist-letters.zip](https://github.com/sherpaai/federated-emnist-dataset/datasets/emnist-letters.zip)
- - [emnist-digits.zip](https://github.com/sherpaai/federated-emnist-dataset/datasets/emnist-digits.zip)
- - [eminst-mnist.zip](https://github.com/sherpaai/federated-emnist-dataset/datasets/emnist-mnist.zip)
+ - [emnist-letters.zip](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-letters.zip)
+ - [emnist-digits.zip](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-digits.zip)
+ - [eminst-mnist.zip](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-mnist.zip)
 
 
 ## How to use it
