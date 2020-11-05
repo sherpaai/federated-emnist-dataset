@@ -20,9 +20,9 @@ Please, check the [EMNIST paper](https://arxiv.org/abs/1702.05373v1) for further
 
 The different datasets in matlab format are located in these locations:
 
- - [emnist-letters.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-letters.zip)
- - [emnist-digits.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-digits.zip)
- - [eminst-mnist.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-mnist.zip)
+ - [emnist-letters.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-letters.mat)
+ - [emnist-digits.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-digits.mat)
+ - [eminst-mnist.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-mnist.mat)
 
 
 ## How to use it
