@@ -31,10 +31,10 @@ The different datasets in matlab format are located in these locations:
  
  ```python
     dataset = scipy.io.loadmat(./emnist-digits.mat)['dataset']
-    train_X = dataset['train'][0,0]['images'][0,0]
-    train_Y = dataset['train'][0,0]['labels'][0,0]
-    test_X = dataset['train'][0,0]['images'][0,0]
-    test_Y = dataset['train'][0,0]['labels'][0,0]
+    train_images = dataset['train'][0,0]['images'][0,0]
+    train_labels = dataset['train'][0,0]['labels'][0,0]
+    test_images = dataset['test'][0,0]['images'][0,0]
+    test_labels = dataset['test'][0,0]['labels'][0,0]
  ```
 
 ## References
