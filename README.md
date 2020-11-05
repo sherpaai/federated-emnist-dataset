@@ -18,18 +18,24 @@ Please, check the [EMNIST paper](https://arxiv.org/abs/1702.05373v1) for further
 
 ## Download datasets
 
-The different datasets are located in these locations:
+The different datasets in matlab format are located in these locations:
 
- - [emnist-letters.zip](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-letters.zip)
- - [emnist-digits.zip](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-digits.zip)
- - [eminst-mnist.zip](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-mnist.zip)
+ - [emnist-letters.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-letters.zip)
+ - [emnist-digits.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-digits.zip)
+ - [eminst-mnist.mat](https://github.com/sherpaai/federated-emnist-dataset/blob/master/datasets/emnist-mnist.zip)
 
 
 ## How to use it
 
- - You can import them in your code using [numpy.load function](https://numpy.org/doc/stable/reference/generated/numpy.load.html).
- For example, for EMNIST Digits dataset:
- `
+ - You can import them in your code using [scipy.io.loadmat function](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.loadmat.html). For example, for the EMNIST Letters dataset:
+ 
+ ```python
+    dataset = scipy.io.loadmat(./emnist-digits.mat)['dataset']
+    train_X = dataset['train'][0,0]['images'][0,0]
+    train_Y = dataset['train'][0,0]['labels'][0,0]
+    test_X = dataset['train'][0,0]['images'][0,0]
+    test_Y = dataset['train'][0,0]['labels'][0,0]
+ ```
 
 ## References
 
